@@ -2,7 +2,7 @@ const Portfolio = function() {
 	function makeWords() {
 		var words = [
 			{
-				text: "rapping",
+				text: "coffee",
 				weight: 12.3
 			}, {
 				text: "css3",
@@ -23,10 +23,10 @@ const Portfolio = function() {
 				text: "java",
 				weight: 9
 			}, {
-				text: "qazi",
+				text: "sarah",
 				weight: 15
 			}, {
-				text: "newText",
+				text: "react",
 				weight: 7
 			}
 		];
@@ -57,7 +57,7 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a Full-Stack Web Developer.", "love everything about code.", "also teach programming to people.", "solve problems."
+				"am a Full-Stack Web Developer.", "love everything about code.", "freelance as a web developer.", "solve problems."
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
@@ -65,7 +65,7 @@ const Portfolio = function() {
 			typeSpeed: 1,
 			contentType: 'text',
 			callback: function() {
-				$("#writing-text").css({"color": "#fff", "background-color": "#C8412B"});
+				$("#writing-text").css({"color": "#fff", "background-color": "#FFA0A0"});
 			},
 			preStringTyped: function() {},
 			onStringTyped: function() {}

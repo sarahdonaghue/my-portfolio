@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: #E3E3E3;
+		background-color: #F5F5F5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-		background: #E3E3E3;
+		background: #FAFAFA;
 }
 
 .img-circle {
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custombox-content {
-	background: #212332;
+	background: #FFA0A0;
 }*/
 
 /**********************************/
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** thin bar ***/
 
 .thin-bar {
-		border-bottom: 5px solid #F33F12;
+		border-bottom: 8px solid #FFA0A0;
 }
 
 
@@ -111,16 +111,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta .cta-button {
-		color: #cc4b37;
+		color: #FFA0A0;
 		text-transform: uppercase;
-		border: 2px solid rgba(255, 103, 68, 0.91);
+		border: 2px solid rgb(255,160,160);
 		border-radius: 50px;
 		background: white;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-		background-color: rgba(255, 103, 68, 0.91);
+		background-color: rgb(255,160,160);
 		color: white;
 }
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience i {
-	color: rgb(255, 138, 89);
+	color: rgb(255,160,160);
 	font-size: 4em;
 }
 
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #work h2 {
-	color: #FF6945;
+	color: #FFA0A0;
 	margin-bottom: .7em;
 }
 
@@ -209,11 +209,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em 0 -0.1em;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
-	color: #ff7654;
+	color: #FFA0A0;
 }
 
 .details i {
-	color: #ff7654;
+	color: #FFA0A0;
 	margin-right: 1em;
 }
 
@@ -226,14 +226,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details a, .details a:link, .details a:active{
-		color: rgba(255, 103, 68, 0.91);
-		border: 2px solid rgba(255, 103, 68, 0.91) !important;
+		color: rgb(255,160,160);
+		border: 2px solid rgb(255,160,160) !important;
 		background-color: #fff;
 }
 
 .details a:hover, .details a:focus {
 		/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
-		background-color: rgba(255, 103, 68, 0.91) !important;
+		background-color: rgb(255,160,160) !important;
 		color: #fff;
 }
 
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: rgb(255,160,160);
 	padding: 6em 4em 5.6em;
 }
 
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer-cta a:hover {
 	background: #fff;
-	color: rgba(255, 103, 68, 0.91);
+	color: rgb(255,160,160);
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 }
 
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer #logo {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: rgb(255,160,160);
 	border-radius: 50%;
 	color: #fff;
 	padding: .4em;
